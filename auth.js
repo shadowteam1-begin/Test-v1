@@ -358,10 +358,10 @@ function showFormAlert(id, type, msg) {
 
 function getDashboardUrl(role) {
   var map = {
-    patient:   '../pages/dashboard-patient.html',
-    bloodbank: '../pages/dashboard-bank.html',
-    hospital:  '../pages/dashboard-patient.html',
-    admin:     '../pages/dashboard-admin.html',
+    patient:   'dashboard-patient.html',
+    bloodbank: 'dashboard-bank.html',
+    hospital:  'dashboard-patient.html',
+    admin:     'dashboard-admin.html',
   };
-  return map[role] || '../index.html';
+  return map[role] || 'index.html';
 }
